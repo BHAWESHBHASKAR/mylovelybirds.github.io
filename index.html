@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en"><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lovelybirds</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/final logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="venues.html">VENUES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+         <h1>Let's Create Moments "Together" </h1>
+         <p>Lovelybirds specializes in managing just these occasions; from small, intimate family events to large, spectacular celebrations</p>
+         <a href="register2.html" class="hero-btn">REGISTER NOW</a>
+        </div>
+    </section>
+     <!-- ceremony -->
+
+<section class="ceremony">
+    <h1>Ceremony</h1>
+
+<div class="row">
+<div class="ceremony-col">
+<img src="images/banquate hall.jpg">
+<h3>Banquet Halls</h3>
+
+</div>
+<div class="ceremony-col">
+<img src="images/catering (1).jpg">
+<h3>Catering</h3>
+
+</div>
+<div class="ceremony-col">
+<img src="images/decorator.jpg">
+<h3>Decorators</h3>
+
+</div>
+</div>
+</section>
+<!-- venues -->
+<section class="venues">
+    <h1>our venues</h1>
+
+    
+    <div class="row">
+          <div class="venues-colm">
+              <img src="images/jaipur 6.jpg" >
+              <div class="layer">
+                  <h3>Jaipur</h3>
+              </div>
+          </div>
+          <div class="venues-colm">
+              <img src="images/udaipur.jpg" >
+              <div class="layer">
+                  <h3>Udaipur</h3>
+              </div>
+          </div>
+          <div class="venues-colm">
+              <img src="images/goa4.jpg" >
+              <div class="layer">
+                  <h3>Goa</h3>
+              </div>
+          </div>
+    </div>
+</section>
+<!-- facilities-->
+<section class="facilities">
+    <h1>our facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+<div class="row">
+<div class="facilities-col">
+<img src="images/banquate hall.jpg">
+<h3>Banquet Halls</h3>
+
+</div>
+<div class="facilities-col">
+<img src="images/catering (1).jpg">
+<h3>Catering</h3>
+
+</div>
+<div class="facilities-col">
+<img src="images/decorator.jpg">
+<h3>Decorators</h3>
+
+</div>
+</div>
+</section>
+<!-- testimonials -->
+<section class="testimonials">
+    <h1>what our happy custommer says</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia voluptate itaque optio!</p>
+   <div class="row">
+       <div class="testimonials-col">
+           <img src="images/user.jpg" >
+      <div>
+          <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non voluptas assumenda in cumque eligendi quas molestias, consequatur ullam.
+          </p>
+          <h3>shourabh</h3>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star-o" ></i>
+      </div>
+      
+        </div>
+       <div class="testimonials-col">
+           <img src="images/user.jpg" >
+      <div>
+          <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non voluptas assumenda in cumque eligendi quas molestias, consequatur ullam.
+          </p>
+          <h3>shourabh</h3>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star-half-o" ></i>
+      </div>
+      
+        </div>
+
+   </div>
+</section>
+<!-- call to action -->
+<section class="cta">
+<h1>book our venues from all over india</h1>
+<a href="" class="hero-btn">CONTACT US</a>
+</section>
+ <!-- footer -->
+
+ <section class="footer">
+     <h4>about us</h4>
+     <p>Lovelybirds specializes in managing just these occasions; from small, intimate family events to large, spectacular celebrations</p>
+ 
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+    
+</div>
+<p>made with <i class="fa fa-heart-o" ></i> by BHAWESH BHASKAR</p>
+
+    </section>
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+</body>
+
+</html>

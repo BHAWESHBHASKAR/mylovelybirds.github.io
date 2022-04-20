@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lovelybirds</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .container {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/banner.png);
+        background-position: center;
+        background-size: cover;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+
+    }
+
+    .row {
+        display: flex;
+        height: 88%;
+        align-items: center;
+    }
+
+    .col {
+        flex-basis: 50%;
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 100px;
+    }
+
+    p {
+        color: #fff;
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    button {
+        width: 180px;
+        color: #000;
+        font-size: 12px;
+        padding: 12px 0;
+        background: #fff;
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        margin: top 30px;
+    }
+
+    .card {
+
+        width: 300px;
+        height: 230px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+    }
+
+    .card1 {
+        background-image: url(images/the\ raj\ palace.jpg);
+    }
+
+    .card2 {
+        background-image: url(images/rajasthali\ resort.jpg);
+    }
+
+    .card3 {
+        background-image: url(images/chomu\ palace.jpg);
+    }
+
+    .card4 {
+        background-image: url(images/vijayran\ palace.jpg);
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+</style>
+
+
+<body>
+
+
+    <div class="container">
+
+        <a href="index.html"><img src="images/final logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="venues.html">VENUES</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </div>
+    <div class="row">
+        <div class="col">
+
+            <h1>Jaipur</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus quidem totam fugit
+                consequuntur illo ipsam ab accusantium hic deleniti laudantium!</p>
+            <button type="button">Explore</button>
+        </div>
+        <div class="col">
+
+            <div class="card card1">
+                <h5>The Raj Palace</h5>
+
+            </div>
+            <div class="card card2">
+                <h5>Rajasthali Resort</h5>
+
+            </div>
+            <div class="card card3">
+                <h5>Chomu Palace</h5>
+
+            </div>
+            <div class="card card4">
+                <h5>Vijayran Palace</h5>
+
+            </div>
+        </div>
+
+    </div>
+    </div>
